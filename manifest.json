@@ -1,0 +1,12 @@
+{
+  "manifest_version":2,
+  "name": "quick_access",
+  "version": "1.0.0",
+  "description": "Quick Launcher Extension",
+  "icons":{"128":"icon_128.png"},
+  "browser_action":{
+    "default_icon":"icon_16.png",
+    "default_popup":"popup.html"
+  },
+  "permissions":["activeTab"]
+}
